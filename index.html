@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-amber.min.css" />
+    <title>Second variant</title>
+</head>
+<body>
+    <header>
+        <div class="wrapperTime">
+            <div class="timeContainer"><span>Сегодня </span><span class="spanItemDay"></span><span class="spanDay">23</span><span class="spanMonth"></span><span class="spanYear">2015</span><span> года, время </span><span class="spanHours"></span><span> :</span><span class="spanMinutes"></span><span> :</span><span class="spanSeconds"></span></div>
+        </div>
+        <button class="btnClear mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="margin-top: 3%; margin-right: 2%;">Stop time</button>
+    </header>
+    <main>
+        <div class="wrapperInputs">
+            <div class="fieldInputEvent mdl-textfield mdl-js-textfield" style="margin-left: 15px; margin-top: 10px;">
+                <input class="inputEvent mdl-textfield__input" maxlength = '25' type="text" id="sample11">
+                <label class="mdl-textfield__label" for="sample11">Input event (max 25 symbols)</label>
+            </div>
+            <div class="fieldInputDate mdl-textfield mdl-js-textfield" style="margin-left: 15px; margin-top: 15px; margin-right: 10px">
+                <input class="inputDate mdl-textfield__input" type="date" id="sample1">
+            </div>
+            <button class="btnCounter mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">New counter</button>
+        </div>
+        <div class="container">
+        </div>
+    </main>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
